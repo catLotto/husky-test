@@ -15,9 +15,6 @@
   "devDependencies": {
     "husky": "^7.0.4"
   },
-  "hooks": {
-    "post-commit": ""
-  },
   "dependencies": {
     "pm2": "^5.1.2"
   }

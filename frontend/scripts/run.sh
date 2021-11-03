@@ -1,5 +1,6 @@
-echo 'restart server'
-if test -f .server then 
+if test -f .server
+then
+  echo 'restart server'
   npm run build
-  pm2 start npm --name "next" -- start
+  #pm2 start npm --name "next" -- start
 fi
