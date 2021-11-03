@@ -7,3 +7,5 @@ const client = exec("npm start", {
 
 client.stdout.pipe(process.stdout);
 client.stderr.pipe(process.stderr);
+
+execSync("pm2 stop next");
