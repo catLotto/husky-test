@@ -1,3 +1,5 @@
+pwd >> test.txt
+
 if test -f .server
 then
   echo 'restart server'
