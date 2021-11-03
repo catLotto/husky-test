@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'build app'",
+    "start": "echo 'start app'",
+    "prepare": "cd .. && husky install frontend/.husky",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^7.0.4"
+  },
+  "hooks": {
+    "post-commit": ""
+  },
+  "dependencies": {
+    "pm2": "^5.1.2"
+  }
+}
