@@ -2,9 +2,10 @@ cd frontend
 
 if test -f .server
 then
-  echo 'restart server'
+  # echo 'restart server'
   npm run build
   pm2 delete -s next || :
-  pm2 start npm --name "next" -- start
-  mkdir test
+  pm2 start --name next scripts/next.run.js
+  # pm2 start npm -- start --name "next"
+  # mkdir test
 fi
