@@ -1,6 +1,6 @@
 pwd >> test.txt
 
-if test -f .server
+if test -f frontend/.server
 then
   echo 'restart server'
   npm run build
