@@ -1,6 +1,6 @@
 const {exec, execSync} = require("child_process");
 
-exec("npm start", {
+const client = exec("npm start", {
   windowsHide: true,
   cwd: process.cwd(),
 });
