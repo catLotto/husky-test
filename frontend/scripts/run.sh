@@ -1,3 +1,5 @@
+git pull
+
 cd frontend
 
 if test -f .server
