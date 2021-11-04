@@ -6,7 +6,7 @@
   "scripts": {
     "build": "echo 'build app'",
     "start": "echo 'start app'",
-    "prepare": "cd .. && husky install frontend/.husky",
+    "prepare": "cd .. && husky install frontend/.husky && bash ./frontend/scripts/run.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
